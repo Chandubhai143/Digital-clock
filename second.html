@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style2.css" >
+</head>
+<body>
+    <!-- <div class="hero">
+        <div class="container">
+            <div class="clock">
+                <span id="Hrs">00</span>
+                <span>:</span>
+                <span id="Mint">00</span>
+                <span>:</span>
+                <span id="Sec">00</span>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        let Hrs= document.getElementById("Hrs");
+        let Mint= document.getElementById("Mint");
+        let Sec= document.getElementById("Sec");
+
+        setInterval(()=>{
+            let currentTime= new Date();
+
+Hrs.innerHTML= (currentTime.getHours()<10?"0":"") + currentTime.getHours();
+Mint.innerHTML= (currentTime.getMinutes()<10?"0":"") + currentTime.getMinutes();
+Sec.innerHTML= (currentTime.getSeconds()<10?"0":"") + currentTime.getSeconds();
+        },1000)
+       
+    </script> -->
+
+    <div class="login-box">
+        <form action="">
+            <h2>Login</h2>
+            <div class="input-box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon>
+            </span>
+            <input type="email" Required>  
+            <label> Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon>
+                </span>
+                <input type="password" Required>  
+                <label>Password</label>
+                </div>
+                <div class="remember-forgot"></div> 
+                <label><input type="check-box"> Remember Me</label>
+                <a href="#">Forgot Password ?</a>
+                <botton type="submit">Login </botton>
+            <div class="register-link">
+            <p> Don't have an account? <a href="#">Register</a>
+            </p>
+        </form>
+        
+        </div>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
